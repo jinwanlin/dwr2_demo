@@ -10,9 +10,11 @@
 <base href="<%=basePath%>">
 
 <title>B页面</title>
-<script type='text/javascript' src='<%=path%>/dwr/interface/chatManager.js'></script>
-<script type='text/javascript' src='<%=path%>/dwr/engine.js'></script>
-<script type='text/javascript' src='<%=path%>/dwr/util.js'></script>
+<script type='text/javascript' src='<%=path %>/dwr/engine.js'></script>
+<script type='text/javascript' src='<%=path %>/dwr/util.js'></script>
+
+<script type='text/javascript' src='<%=path %>/dwr/interface/chatManager.js'></script>
+
 <script type="text/javascript" src="main.js"></script>
 </head>
 

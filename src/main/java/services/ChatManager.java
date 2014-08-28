@@ -13,6 +13,7 @@ import pojo.MessageInfo;
 public class ChatManager {
 
 	public void sendMessage(String msg) {
+
 		Collection<ScriptSession> scriptSessions = new ArrayList<ScriptSession>();
 		Collection sessionsByPage = WebContextFactory.get().getScriptSessionsByPage("/dwr2_demo/a.jsp");
 		scriptSessions.addAll(sessionsByPage);
