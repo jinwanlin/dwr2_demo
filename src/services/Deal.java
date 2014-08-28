@@ -39,7 +39,7 @@ public class Deal implements Runnable {
 		
 		//要返回的页面
 		Collection<ScriptSession> scriptSessions = new ArrayList<ScriptSession>();
-		Collection sessionsByPage = WebContextFactory.get().getScriptSessionsByPage("/dwr_demo2/b.jsp");
+		Collection sessionsByPage = WebContextFactory.get().getScriptSessionsByPage("/dwr2_demo/b.jsp");
 		scriptSessions.addAll(sessionsByPage);
 
 		//调用util方法，往页面推送数据
